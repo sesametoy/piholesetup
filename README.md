@@ -6,6 +6,7 @@ yum -y update
 reboot
 ```
 yum -y install epel-release
+yum -y install wget mlocate git
 ```
 
 ```

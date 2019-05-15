@@ -9,7 +9,7 @@ yum -y install epel-release
 ```
 
 ```
-SELINUX=enforcing     // Change to “SELINUX=permissive”
+sed -i "s/SELINUX=enforcing/SELINUX=permissive” /etc/sysconfig/selinux
 ```
 install pihole
 ```

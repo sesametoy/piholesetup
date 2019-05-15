@@ -1,4 +1,27 @@
-# piholesetup
+# pihole install
+prepare
+```
+yum -y update
+```
+reboot
+```
+yum -y install epel-release
+```
+
+```
+SELINUX=enforcing     // Change to “SELINUX=permissive”
+```
+install pihole
+```
+curl -sSL https://install.pi-hole.net | bash
+```
+
+
+
+
+
+
+# pihole setup
 
 pihole setup file copy from https://github.com/jacyl4/de_GWD/
 
